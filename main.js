@@ -21,7 +21,7 @@ function takeSnapshot()
 }
 
 console.log('ml5 version', ml5.version)
-classifier = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/uTA60YDwY/model.json",modelLoaded)
+classifier = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/DsUSBhZUq/model.json",modelLoaded)
 
 function modelLoaded()
 {
@@ -36,3 +36,4 @@ function speak()
     var utterThis = new SpeechSynthesisUtterance(speak_data_1 + speak_data_2);
     synth.speak(utterThis);
 }
+
